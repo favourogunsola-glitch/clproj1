@@ -1,0 +1,24 @@
+body{ background-color:blue ;
+
+    background-image: linear-gradient(to bottom, darkblue,navy);
+ background-repeat:no-repeat ; 
+background-position: top center ;}
+
+#H1{background-image:linear-gradient(to right,purple,coral) ;
+border-radius: 16px;
+text-align: center;
+color: white;}
+#H2{background-color: midnightblue;
+text-align: center;
+color: white;}
+#H2 h2{ color: coral;}
+#sun{ width: 60px;
+height: 60px;
+text-align: center;
+background-color: yellow;
+border-radius: 50%;
+animation:twinkle 2s infinite alternate;}
+@keyframes twinkle { from{background-color: yellow;}
+to{background-color: white;}
+}
+#footer{text-align: center; color: coral;}
